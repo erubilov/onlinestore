@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jrcom.ru.actionbarcontect.layouts.GoodsItemLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/goodsName_tv_recycler"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            tools:text="Product name" />
+    <LinearLayout
+        android:layout_below="@id/goodsName_tv_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+        <TextView
+            android:id="@+id/goodsPrice_tv_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text="340" />
+
+        <TextView
+            android:id="@+id/goodsSum_tv_recycler"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            tools:text=" x 2 = 680" />
+
+
+    </LinearLayout>
+
+        <ImageView
+            android:id="@+id/deleteGoods_iv_goodItem"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_clear_grey600_48dp"/>
+    </RelativeLayout>
+
+    <SeekBar
+        android:id="@+id/goodsCount_seek_recycler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10" />
+
+
+</jrcom.ru.actionbarcontect.layouts.GoodsItemLayout>

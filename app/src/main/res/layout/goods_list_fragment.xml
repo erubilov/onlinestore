@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/goodsList_lv_goodsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bottom_container_goodsFragment"/>
+
+    <TextView
+        android:id="@+id/recycler_empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottom_container_goodsFragment"
+        android:gravity="center"
+        android:text="@string/cart_empty"
+        android:visibility="gone"
+        />
+
+    <LinearLayout
+        android:id="@+id/bottom_container_goodsFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true">
+
+        <TextView
+            android:id="@+id/totalSelected_tv_goodsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="0.00"/>
+
+        <Button
+            android:id="@+id/addToCart_btn_goodsFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_to_cart"
+            />
+
+
+        </LinearLayout>
+
+
+
+</RelativeLayout>

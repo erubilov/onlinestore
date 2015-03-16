@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">ПоКупашка</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_cross">Корзина</string>
+    <string name="action_loading">Идет проверка обновлений…</string>
+    <string name="title_main_activity">Список товаров</string>
+    <string name="title_cart_activity">Ваша корзина</string>
+
+    <string name="add_to_cart">Добавить в корзину</string>
+    <string name="total_price">Выбрано товаров на сумму: %1$.2f</string>
+    <string name="send_order">Отправить заказ</string>
+
+    <!-- CartActivity -->
+    <string name="cart_empty">Корзина пуста</string>
+
+    <!-- server and errors -->
+    <string name="loaded_from_server">Файлы обновлены</string>
+    <string name="loaded_from_local">Обновления не требуются</string>
+    <string name="file_broken">Не удалось загрузить список товаров. Проверьте соединение с сервером или повторите попытку позднее</string>
+    <string name="flash_no_network_prompt">Отсутствует подключение к Интернет.\nПожалуйста, проверьте настройки сети.</string>
+    <string name="alert_settings">Настройки</string>
+    <string name="alert_close">Выйти</string>
+
+
+
+
+    <string name="items_count_text">\u0020x %1$d = %2$.2f</string>
+</resources>
